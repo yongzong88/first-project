@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 200%;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>影片</title>
+    <style>
+        .TOP {
+            
+            width: 100%;
+            height: 50%;
+            background-image: url(123.jpg);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+        }
+
+        .down{
+            width: 100%;
+            height: 50%;
+            background-image: url(1383070.jpg);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+        }
+
+        head {
+            float: left;
+            width: 50%;
+        }
+
+        .R {
+            float: right;
+            width: 50%;
+            text-align: center;
+        }
+
+        .L {
+            float: left;
+            width: 50%;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 50px;
+            margin: 100px;
+        }
+
+        .container {
+            position: relative;
+            width: 93%;
+            height: 0;
+            padding-bottom: 56.25%;
+            margin: 5%;
+            margin-top: 20%;
+        }
+
+        .video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .返回{
+            position:fixed;
+            right: 0;
+            width: 5%;
+            bottom:0;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body style="width: 100%; height: 100%">
+
+    <div class="TOP">
+        <div class="R">
+            <div class="container">
+                <iframe src="https://www.youtube.com/embed/UKSXTZMlKxw" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen class="video"></iframe>
+            </div>
+        </div>
+    </div>
+    <div class="down">
+        <div class="L">
+            <div class="container">
+                <iframe src="https://www.youtube.com/embed/UKSXTZMlKxw" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen class="video"></iframe>
+            </div>
+        </div>
+    </div>
+    <div class="返回">
+        <a href="index.html"><img src="返回.png" style="width:100%"></a>
+    </div>
+</body>
+
+</html>
