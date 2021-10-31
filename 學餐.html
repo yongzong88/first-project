@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>學餐</title>
     <style>
         * {
             margin: 0;
@@ -13,7 +13,7 @@
         }
 
         body {
-            background-image: url(image/background.png);
+            background-image: url("background.png");
             background-repeat: no-repeat;
             background-size: 100%;
         }
@@ -24,7 +24,7 @@
         }
 
         .mc:hover {
-            background-image: url("image/麥當勞.png");
+            background-image: url("麥當勞.png");
             color: transparent;
             background-position: center;
         }
@@ -35,7 +35,7 @@
         }
 
         .st:hover {
-            background-image: url("image/星巴克.png");
+            background-image: url("星巴克.png");
             color: transparent;
             background-position: center;
         }
@@ -46,7 +46,7 @@
         }
 
         .pop:hover {
-            background-image: url("image/路人甲.png");
+            background-image: url("路人甲.png");
             color: transparent;
             background-position: center;
         }
@@ -57,7 +57,7 @@
         }
 
         .eat:hover {
-            background-image: url("image/吃的店.png");
+            background-image: url("吃的店.png");
             color: transparent;
             background-position: center;
         }
@@ -68,7 +68,7 @@
         }
 
         .afternoon:hover {
-            background-image: url("image/飲料店.png");
+            background-image: url("飲料店.png");
             color: transparent;
             background-position: center;
         }
@@ -79,7 +79,7 @@
         }
 
         .different:hover {
-            background-image: url("image/吃的店.png");
+            background-image: url("吃的店.png");
             color: transparent;
             background-position: center;
         }
@@ -90,7 +90,7 @@
         }
 
         .fish:hover {
-            background-image: url("image/吃的店.png");
+            background-image: url("吃的店.png");
             color: transparent;
             background-position: center;
         }
@@ -101,7 +101,7 @@
         }
 
         .local:hover {
-            background-image: url("image/吃的店.png");
+            background-image: url("吃的店.png");
             color: transparent;
             background-position: center;
         }
@@ -125,6 +125,13 @@
             bottom:0;
             margin: 10px;
         }
+
+        a{
+            color: inherit;
+            /* 移除超連結顏色 */
+            text-decoration: none;
+            /* 移除超連結底線 */
+        }
     </style>
 </head>
 
@@ -134,44 +141,44 @@
             <tr>
                 <td>
                     <p class="mc">
-                        ︹麥當勞︺
+                        <a href="#">︹麥當勞︺</a>
                     </p>
                 </td>
                 <td>
                     <p class="st">
-                        ︹星巴克︺
+                        <a href="#">︹星巴克︺</a>
                     </p>
                 </td>
                 <td>
                     <p class="pop">
-                        ︹路人甲︺
+                        <a href="#">︹路人甲︺</a>
                     </p>
                 </td>
                 <td>
                     <p class="eat">
-                        ︹吃的喝的︺
+                        <a href="#">︹吃的喝的︺</a>
                     </p>
                 </td><br>
             </tr>
             <tr>
                 <td>
                     <p class="afternoon">
-                        ︹下午茶︺
+                        <a href="#">︹下午茶︺</a>
                     </p>
                 </td>
                 <td>
                     <p class="different">
-                        ︹異國風情︺
+                        <a href="#">︹異國風情︺</a>
                     </p>
                 </td>
                 <td>
                     <p class="fish">
-                        ︹魚夫人︺
+                        <a href="#">︹魚夫人︺</a>
                     </p>
                 </td>
                 <td>
                     <p class="local">
-                        ︹鄉土美食︺
+                        <a href="#">︹鄉土美食︺</a>
                     </p>
                 </td>
             </tr>

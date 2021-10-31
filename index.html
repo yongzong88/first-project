@@ -1,63 +1,80 @@
 <!DOCTYPE html>
-<html lang="en" style="height: 100%;">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>首頁</title>
+    <link rel="stylesheet" type="text/css" href="https://csshake.surge.sh/csshake.min.css" >
     <style>
         body {
-            background-image: url(首頁圖.jpg);
-            background-size: 100%;
+            background-image: url(雲1.png);
+            background-size: 100% 100vh;
             background-repeat: no-repeat;
+            
         }
 
         .tt {
             position: absolute;
             bottom: 0;
             width: 100%;
-    
+            
         }
         .ttt {
-            color: purple;
+            color:black;
             text-align: center;
+            font-family:'Noto Sans TC', sans-serif;
             writing-mode: vertical-lr;
-            font-size: 36px;
+            font-size: 45px;
             padding-bottom: 15px;
             
         }
-        td>a {
+        td>div>a {
             text-decoration: none;
             color: inherit;
+           
         }
         td>a:hover{
             color:white;
+            
         }
-        .t{
-            width: 100%;
-            text-align: center;
+        tr{
+            
         }
     </style>
 </head>
 
-<body style="height: 100%;">
-    <div class="t" style="height: 80%;">
-        <img src="中原食.png" style="height: 100%;">
-    </div>
+<body>
+    
     <table class="tt">
+        
         <tr>
             <td class="ttt">
-                <a href="學餐.html">︻學餐︼</a>
+                <div class="shake">
+                    <a href="學餐.html">
+                    ︻學餐︼
+                    </a>
+                </div>
             </td>
             <td class="ttt">
-                <a href="影片.html">︻影片︼</a>
+                <div class="shake">
+                <a href="影片.html">
+                ︻影片︼
+                </a>
+                </div>
             </td>
             <td class="ttt">
-                <a href="form.html">︻表單︼</a>
+                <div class="shake">
+                <a href="form.html">︻表單︼                    
+                </a>
+                </div>
             </td>
             <td class="ttt">
-                <a href="組員.html">︻組員︼</a>
+                <div class="shake">
+                <a href="組員.html">︻組員︼                    
+                </a>
+                </div>
             </td>
         </tr>
     </table>
