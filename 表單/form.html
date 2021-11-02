@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <style>
+    body{
+      background-image: url("222.jpg");
+      background-size: cover;
+    }
+    form{
+      background-color: rgba(0, 0, 0, 0.5);
+      width: 60%;
+      margin:20px auto;
+      height: 96.5vh;
+      padding: 15px;
+      border-radius: 10px;
+      position: relative;
+      
+    }
+    ol{
+      list-style: none;
+    }
+    ol > li{
+      margin: 15px 0;
+      font-size: 18px;
+    }
+    ol > li > input[type="text"]{
+      width: 80%;
+      height: 30px;
+    }
+  .liner{
+    background:linear-gradient(to right, #f1af35, #dd6c03);
+    width:50%;
+    text-align: center;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 20px;
+    color:#fff;
+    margin: auto;
+    font-size: 18px;
+  } 
+  fieldset{
+     width: 50%;
+     border-radius: 10px;
+     outline: none;
+     border:none;
+     margin: auto;
+     color:#Fff;
+   }
+   legend{
+     width: 100%;
+   }
+   legend>p{
+     background-color: #eca02e;
+     width: 200px;
+     height: 40px;
+     line-height: 40px;
+     text-align: center;
+     color:#fff;
+     font-weight: 600;
+     border-radius: 5px;
+     margin:20px auto;
+     font-size: 18px;
+   }
+   .btn{
+     width: 80%;
+     height: 45px;
+     outline: none;
+     border:none;
+     color:#fff;
+     background-color: #eca02e;
+     border-radius: 5px;
+     font-size: 16px;
+     font-weight: 600;
+     cursor: pointer;
+     margin-bottom: 15px;     
+   }
+   
+   .btn:hover{
+    background-color: rgba(236, 101, 11, 0.992);
+    transition: .5s;
+   }
+   input[type="text"]{
+     border:none;
+     outline: none;
+     border:1px #ccc solid;
+     border-radius: 3px;
+     
+   }
+   textarea{
+    border:none;
+     outline: none;
+     border:1px #ccc solid;
+     border-radius: 3px;
+     resize: none;
+   }
+   input[type="text"]:focus{
+     border:1px #7bc4ee solid;
+     transition: .3s;
+   }
+   .btnList{
+     width: 50%;
+     margin: auto;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+   }
+   .pagetop{
+       color:#fff;
+       font-size: 36px;
+       position: absolute;
+       top: 35px;
+       left: 35px;
+       cursor: pointer;
+   }
+   .pagetop:hover{
+       color:#D05362;
+       transition: .3s;
+   }
+  </style>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.css"><!-- 用一下不會怎樣八:) 我需要iconㄚㄚㄚ -->
+</head>
+
+<body>
+  <form>
+    <a href="../index.html"><i class="fas fa-chevron-left pagetop"></i></a>
+  <div class="liner">
+    <h3><b style="font-weight: 600;">聯絡我們</b></h3>
+  </div>
+  <fieldset>
+     
+    <legend>
+      <p>個人資料</p>
+    </legend>
+ 
+    <ol>
+      <li>姓名：
+        <input type="text" name="sub_name"  /><br />
+      </li>
+
+      <li>
+        性別：<input type="radio" name="gender" value="men" id="men" checked />
+        <label for="men">男生</label>
+        <label for="woman"><input type="radio" name="gender" value="women" id="woman"/>女生</label>
+        <label for="doNot"><input type="radio" name="gender" value="women" id="doNot"/>不透漏</label>
+        
+
+     <li>電話：
+        <input type="text" name="te_name"  /><br />
+      </li>
+
+      <li>信箱：
+        <input type="text" name="te_name" /><br />
+      </li>
+    </ol>
+
+  </fieldset>
+  <br />
+  <fieldset>
+    <legend><p>問題與回饋</p></legend>
+
+    <ol type="1">
+      <li>
+        主旨：<br /><textarea name="t" cols="30" rows="2" wrap="hard"></textarea>
+      </li>
+
+      <li>
+        內容:<br/><textarea name="s" cols="65" rows="8" wrap="hard"></textarea>
+      </li>
+    </ol>
+  </fieldset>
+  <div class="btnList">
+    <input type="button" value="送出" onclick="self.location.href='mailto:cvassu553325@gmail.com@gmail.com'" class="btn"/>
+  <input type="reset" value="重填" class="btn"/>
+  
+  </div>
+  
+  </form>
+  
+</body>
+
+</html>
