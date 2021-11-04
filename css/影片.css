@@ -1,0 +1,84 @@
+.TOP {
+            
+    width: 100%;
+    height: 50%;
+    background-image: url('../img/VBG1.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+.down{
+    width: 100%;
+    height: 50%;
+    background-image: url('../img/VBG2.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+head {
+    float: left;
+    width: 50%;
+}
+
+.R {
+    float: right;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.L {
+    float: left;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 100px;
+}
+
+.container {
+    position: relative;
+    width: 93%;
+    height: 0;
+    padding-bottom: 56.25%;
+    margin: 5%;
+    margin-top: 20%;
+}
+
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.返回{
+    position:fixed;
+    right: 0;
+    width: 5%;
+    bottom:0;
+    margin: 10px;
+}
+
+.TEXT {
+   /* background-color: rgba(255, 255, 0, 0.2);*/
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: bolder;
+    margin: 10%;
+    padding-top: 80px;
+    color:black;
+
+}
