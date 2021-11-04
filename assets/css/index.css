@@ -1,0 +1,65 @@
+
+body {
+    background-image: url('../img/HOMEBG.jpg');
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
+
+}
+
+.tt {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.ttt {
+    color: black;
+    text-align: center;
+    font-family: 'Noto Sans TC', sans-serif;
+    writing-mode: vertical-lr;
+    font-size: 45px;
+    padding-bottom: 15px;
+   
+
+}
+.deal{
+     transition: 0.5s;
+}
+.deal:hover{
+    font-size: 60px;
+}
+.video{
+     transition: 0.5s;
+}
+.video:hover{
+    font-size: 60px;
+}
+.form{
+     transition: 0.5s;
+}
+.form:hover{
+    font-size: 60px;
+}
+.people{
+     transition: 0.5s;
+}
+.people:hover{
+    font-size: 60px;
+}
+
+
+td>div>a {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+td>a:hover {
+    color: white;
+
+}
+.ii{
+    width: 100%;
+    text-align: center;
+}

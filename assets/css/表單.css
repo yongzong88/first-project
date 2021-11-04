@@ -1,0 +1,115 @@
+body{
+    background-image: url("../img/FBG.jpg");
+    background-size: cover;
+  }
+  form{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 60%;
+    margin:20px auto;
+    height: 96.5vh;
+    padding: 15px;
+    border-radius: 10px;
+    position: relative;
+    
+  }
+  ol{
+    list-style: none;
+  }
+  ol > li{
+    margin: 15px 0;
+    font-size: 18px;
+  }
+  ol > li > input[type="text"]{
+    width: 80%;
+    height: 30px;
+  }
+.liner{
+  background:linear-gradient(to right, #f1af35, #dd6c03);
+  width:50%;
+  text-align: center;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 20px;
+  color:#fff;
+  margin: auto;
+  font-size: 18px;
+} 
+fieldset{
+   width: 50%;
+   border-radius: 10px;
+   outline: none;
+   border:none;
+   margin: auto;
+   color:#Fff;
+ }
+ legend{
+   width: 100%;
+ }
+ legend>p{
+   background-color: #eca02e;
+   width: 200px;
+   height: 40px;
+   line-height: 40px;
+   text-align: center;
+   color:#fff;
+   font-weight: 600;
+   border-radius: 5px;
+   margin:20px auto;
+   font-size: 18px;
+ }
+ .btn{
+   width: 80%;
+   height: 45px;
+   outline: none;
+   border:none;
+   color:#fff;
+   background-color: #eca02e;
+   border-radius: 5px;
+   font-size: 16px;
+   font-weight: 600;
+   cursor: pointer;
+   margin-bottom: 15px;     
+ }
+ 
+ .btn:hover{
+  background-color: rgba(236, 101, 11, 0.992);
+  transition: .5s;
+ }
+ input[type="text"]{
+   border:none;
+   outline: none;
+   border:1px #ccc solid;
+   border-radius: 3px;
+   
+ }
+ textarea{
+  border:none;
+   outline: none;
+   border:1px #ccc solid;
+   border-radius: 3px;
+   resize: none;
+ }
+ input[type="text"]:focus{
+   border:1px #7bc4ee solid;
+   transition: .3s;
+ }
+ .btnList{
+   width: 50%;
+   margin: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
+ .pagetop{
+     color:#fff;
+     font-size: 36px;
+     position: absolute;
+     top: 35px;
+     left: 35px;
+     cursor: pointer;
+ }
+ .pagetop:hover{
+     color:#D05362;
+     transition: .3s;
+ }
