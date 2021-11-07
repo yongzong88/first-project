@@ -1,3 +1,10 @@
+.返回 {
+    position: fixed;
+    right: 0;
+    width: 5%;
+    bottom: 0;
+    margin: 10px;
+}
 body {
     background-color: rgba(0, 0, 0, 0.733);
     background-image: url("../img/海浪-1.png");
